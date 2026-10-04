@@ -5,10 +5,10 @@ const EMAIL = 'ankittiwari100804@gmail.com'
 const roles = ['Full Stack Developer', 'MERN Stack Engineer', 'React.js Builder', 'Java Programmer']
 
 const projects = [
-  { t: 'Real-Time Group Chat', d: 'Instant messaging and one-to-one chat. Express and Node.js APIs store messages in MongoDB, and the React front end works on every device.', s: ['MongoDB', 'Express', 'React', 'Node.js'], links: [['Live demo', 'https://ankit-realtime-groupchat.netlify.app/']], big: true },
-  { t: 'GenUI (Prompt2UI)', d: 'Describe an interface in plain words and get production-ready code. Pick a framework and check the result in a live preview.', s: ['React', 'AI APIs', 'JavaScript'], links: [['Live demo', 'https://prompt2ui.netlify.app/']], big: true },
+  { t: 'Real-Time Group Chat', d: 'Instant messaging and one-to-one chat. Express and Node.js APIs store messages in MongoDB, and the React front end works on every device.', s: ['MongoDB', 'Express', 'React', 'Node.js'], links: [['Live demo', 'https://ankit-realtime-groupchat.netlify.app/'], ['Source code', GH + '/Real-Time-Group-Chat']], big: true },
+  { t: 'GenUI (Prompt2UI)', d: 'Describe an interface in plain words and get production-ready code. Pick a framework and check the result in a live preview.', s: ['React', 'AI APIs', 'JavaScript'], links: [['Live demo', 'https://prompt2ui.netlify.app/'], ['Source code', GH + '/Prompt2UI']], big: true },
   { t: 'College Community Hub', d: 'Student mentorship, announcements and job sharing, with role-based access control and admin verification.', s: ['React', 'Tailwind', 'Python', 'MySQL'], links: [] },
-  { t: 'Notes App', d: 'Add, edit and organise your notes in one place.', s: ['JavaScript'], links: [['Source code', GH + '/Notes-App-Project']] },
+  { t: 'Notes App', d: 'Add, edit, pin and search your notes in one place, with a dark and light reading mode and a built-in countdown timer. Notes are saved in the browser.', s: ['React', 'Tailwind CSS', 'JavaScript'], links: [['Live demo', 'https://notesappmanager.netlify.app/'], ['Source code', GH + '/Notes-App-Project']] },
   { t: 'Express Task Manager', d: 'A task manager API built with Express to create and track tasks.', s: ['Express', 'Node.js'], links: [['Source code', GH + '/express-task-manager']] },
   { t: 'CRUD User App', d: 'User management covering create, read, update and delete.', s: ['CRUD', 'JavaScript'], links: [['Source code', GH + '/CRUD-User-App']] },
 ]
