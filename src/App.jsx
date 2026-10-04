@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 
 const GH = 'https://github.com/Ankit-tiwarii01'
 const EMAIL = 'ankittiwari100804@gmail.com'
+const RESUME = 'https://drive.google.com/file/d/1Nk-D7lL8p0hfoNGJhfHFumrqx55ZjwYy/view?usp=drive_link'
 const roles = ['Full Stack Developer', 'MERN Stack Engineer', 'React.js Builder', 'Java Programmer']
 
 const projects = [
@@ -84,7 +85,7 @@ export default function App() {
             <p className="lead">I build fast, responsive web apps and the APIs behind them with the MERN stack and Java. Currently doing my MCA at C-DAC, GGSIPU.</p>
             <div className="btns">
               <a className="btn pri" href="#projects">View projects</a>
-              <a className="btn" href="/Ankit_Tiwari_Resume.pdf" download="Ankit_Tiwari_Resume.pdf">Download Resume ↓</a>
+              <a className="btn" href={RESUME} target="_blank" rel="noopener">Request Resume</a>
               <a className="btn" href={GH} target="_blank" rel="noopener">GitHub</a>
               <a className="btn" href="https://linkedin.com/in/ankit-tiwari-0099283ba" target="_blank" rel="noopener">LinkedIn</a>
             </div>
@@ -154,7 +155,7 @@ export default function App() {
               <div className="btns c">
                 <a className="btn pri" href={`mailto:${EMAIL}`}>{EMAIL}</a>
                 <a className="btn" href="tel:+919625211997">+91 96252 11997</a>
-                <a className="btn" href="/Ankit_Tiwari_Resume.pdf" download="Ankit_Tiwari_Resume.pdf">Download Resume ↓</a>
+                <a className="btn" href={RESUME} target="_blank" rel="noopener">Request Resume</a>
               </div>
             </div>
           </Reveal>
